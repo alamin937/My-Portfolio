@@ -1,0 +1,65 @@
+.banner{
+    background-color: #1C191B ;
+    height: 400px;
+    display: inline-block;
+    font-family: sans-serif;
+    width: 100%
+}
+.banner h1{
+    color:#D8B9C9;
+    font-size: 50px;
+    font-weight: 700;
+    
+}
+.header{
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 100px;
+    color: white
+}
+.header p{
+    width: 550px;
+    text-align: justify;
+}
+.header button{
+    background-color: black;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding:4px 10px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.header button a{
+    text-decoration: none;
+    color: white;
+}
+
+.banner button:hover{
+    background-color: blue;
+    padding:8px 20px;
+}
+
+@media only screen and (max-width: 688px) {
+    .header p{
+        width:300px
+    }
+    .header{
+        margin-left: 35px;
+    }
+    .banner{
+        height:450px
+    }
+
+    
+}
+
+@media only screen and (min-width: 688px) and (max-width:991px) {
+    .header p{
+        width:300px
+    }
+    .header{
+        margin-left: 35px;
+    }
+    
+}

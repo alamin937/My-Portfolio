@@ -1,0 +1,41 @@
+.span{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 20px;
+}
+.span p{
+    border: 1px solid green;
+    margin-left: 5px;
+    text-align: center;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.anchor a{
+    text-decoration: none;
+    margin-left: 10px;
+    border: 2px solid pink;
+    padding: 5px;
+    background-color: #443643;
+    color: white;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 688px) {
+   
+    .span{
+        grid-template-columns: repeat(2, 1fr);
+    }
+ 
+ }
+ 
+ @media only screen and (min-width: 688px) and (max-width:991px) {
+ 
+     .span{
+         grid-template-columns: repeat(2, 1fr);
+     }
+ 
+ 
+ }
