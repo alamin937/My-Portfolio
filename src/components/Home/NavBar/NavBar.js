@@ -15,6 +15,7 @@ const NavBar = () => {
                         <Nav.Link as={HashLink} to="/home#about">About</Nav.Link>
                         <Nav.Link as={HashLink} to="/home#skills">My Skills</Nav.Link>
                         <Nav.Link as={HashLink} to="/home#project">Projects</Nav.Link>
+                        <Nav.Link as={HashLink} to="/home#blogs">Blogs</Nav.Link>
                         <Nav.Link as={HashLink} to="/home#contact">Contact Me</Nav.Link>
                     </Nav>
                     </Navbar.Collapse>
