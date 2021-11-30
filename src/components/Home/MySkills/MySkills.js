@@ -11,7 +11,7 @@ const MySkills = () => {
       },[])
     return (
         <div className='flex' id='skills'>
-            <h1 data-aos="fade-down-right" style={{marginTop:'40px'}}>My Skills</h1>
+            <h1 data-aos="fade-down-right" style={{marginTop:'40px',color:'white'}}>My Skills</h1>
            <div className='myskill'>
                
                <div data-aos="flip-up" className='icon'>

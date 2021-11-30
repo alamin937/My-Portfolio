@@ -1,0 +1,26 @@
+.pera p{
+    width: 500px;
+    text-align: justify;
+}
+.font i{
+    font-size: 25px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 688px) {
+   
+   .pera p{
+       width:250px
+   }
+ 
+ }
+ 
+ @media only screen and (min-width: 688px) and (max-width:991px) {
+ 
+     .myskill{
+         grid-template-columns: repeat(2, 1fr);
+     }
+ 
+ 
+ }
